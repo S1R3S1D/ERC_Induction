@@ -1,0 +1,8 @@
+An XOR table has been trained in this example with 2 inputs , 4 neuron hidden layer and 1 output. 
+The code has been implemented using only numpy and matplotlib to keep it simple and also to showcase the full understanding of the concepts used and  how the network works.
+The weights and biases have been initialized with the random function .
+I have used the sigmoid function as the choice for my activation function for both the hidden layer activation and the output layer activation.
+Epochs of 50000 and a learning rate of 0.3 has been used for the implementation .
+A list cf1 has been initialized to store the cost function of the trained neural networks for each run in epochs which can be later used to plot the cost function vs number of iterations graph.
+The graph is peculiar as it flattens out at around 3000 and 300 iterations before actually converging to a minima post 7000 iterations .
+In the end it gets to an acceptable accuracy where the trained output is around [ 0.01 0.99 0.99 0.01] which is close to the desired output of [0 1 1 0]
