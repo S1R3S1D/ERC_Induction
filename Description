@@ -6,3 +6,7 @@ Epochs of 50000 and a learning rate of 0.3 has been used for the implementation 
 A list cf1 has been initialized to store the cost function of the trained neural networks for each run in epochs which can be later used to plot the cost function vs number of iterations graph.
 The graph is peculiar as it flattens out at around 3000 and 300 iterations before actually converging to a minima post 7000 iterations .
 In the end it gets to an acceptable accuracy where the trained output is around [ 0.01 0.99 0.99 0.01] which is close to the desired output of [0 1 1 0]
+As an extension i also created a neural network to classify an image with handwritten digits using stochastic gradient descent with an accuracy around 90%
+I have also dived in to briefly learn more about AI ML DL etc, as participating in this mini project has further raised my interest in the subject and learnt quite a lot from some youtube channels like Sentdex, 
+I also took the Andrew NG course and gained some knowledge on a beginner's level so I have a good idea about linear regression , classification etc
+I am also learning Tensorflow so that i can dive deeper into the subject
